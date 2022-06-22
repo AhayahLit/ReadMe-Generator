@@ -33,9 +33,11 @@ const questions = [{
     type: "input",
     message: "What commands will you be using?",
     name: "Tests"
-}
- 
-    ];
+}, {
+    type: "input",
+    message: "FAQ",
+    name: "Questions"
+}   ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
